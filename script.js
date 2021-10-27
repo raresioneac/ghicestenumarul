@@ -35,7 +35,7 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess !== secretNumber) {
     if (score > 1) {
       // document.querySelector('.message').textContent =
-      // guess > secretNumber ? '📈 Too high!' : '📉 Too low!';
+      // guess > secretNumber ? '📈 Prea mare!' : '📉 Prea mic!';
       displayMessage(guess > secretNumber ? '📈 Prea mare!' : '📉 Prea mic!');
       score--;
       document.querySelector('.score').textContent = score;
